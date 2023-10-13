@@ -1,10 +1,12 @@
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
 import SortingVisualizer from './components/SortingVisualizer/SortingVisualizer';
 
 function App() {
+
   return (
     <div className="App">
-        < SortingVisualizer />
+        <SortingVisualizer />
     </div>
   );
 }
